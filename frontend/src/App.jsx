@@ -1,10 +1,10 @@
 import React from "react";
-import AddExpense from "./pages/AddExpense";
+import History from "./pages/History";
 
 function App() {
     return (
         <div>
-            <AddExpense />
+            <History />
         </div>
     );
 }
