@@ -1,10 +1,10 @@
 import React from "react";
-import History from "./pages/History";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
     return (
         <div>
-            <History />
+            <Dashboard />
         </div>
     );
 }
