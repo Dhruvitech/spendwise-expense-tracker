@@ -5,7 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import AddExpense from "./pages/AddExpense";
 import History from "./pages/History";
 import Sidebar from "./components/Sidebar";
-
+import Reports from "./pages/Reports";
 
 function App(){
     return(
@@ -18,6 +18,7 @@ function App(){
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/add-expense" element={<AddExpense />} />
                         <Route path="/history" element={<History />} />
+                        <Route path="/reports" element={<Reports />} />
                     </Routes>
                 </div>
             </div>
