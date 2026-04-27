@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from "react";
 import axios from "axios";
+import CalendarView from "../components/CalendarView";
 
 const Dashboard = () => {
     const [expenses, setexpenses] = useState([]);
@@ -26,6 +27,7 @@ const Dashboard = () => {
     return (
         <div>
             <h2>Dashboard</h2>
+            <CalendarView />
 
             <h3>Total Expense: ₹{totalExpense}</h3>
             <h3>Monthly Budget: ₹{budget}</h3>
